@@ -74,7 +74,7 @@ class NewOrder(tk.Toplevel):
 	def __init__(self, container):
 		super().__init__(container)
 		self.title("PyServe.4.0")
-		self.geometry("419x350")
+		self.geometry("419x250")
 		self.resizable(False, False)
 
 		# create the banner and grid it
@@ -155,7 +155,7 @@ class NewCustomer(tk.Toplevel):
 	def __init__(self, container):
 		super().__init__(container)
 		self.title("PySeve.4.0")
-		self.geometry("419x350")
+		self.geometry("400x350")
 		self.resizable(False, False)
 
 		# create the banner and grid it
@@ -305,7 +305,7 @@ class App(tk.Tk):
 	def __init__(self):
 		super().__init__()
 		self.title("PyServe.4.0")
-		self.geometry("448x200")
+		self.geometry("419x200")
 		self.resizable(False, False)
 
 		# create the banner and grid it
