@@ -35,8 +35,8 @@ class ServiceOrderForm:
 		Phone: {self.custy_info['phone']}
 		Email: {self.custy_info['email']}
 		-----------------------------------------------------
-		Work Description: {self.work_description}
-
+		Work Description: 
+		{self.work_description}
 		
 		_____________________________________________________
 		
